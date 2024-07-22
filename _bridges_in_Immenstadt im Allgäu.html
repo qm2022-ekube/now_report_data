@@ -1,0 +1,2309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e4423ef5c1fd7dcd7478c0564de4ea8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6e4423ef5c1fd7dcd7478c0564de4ea8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e4423ef5c1fd7dcd7478c0564de4ea8 = L.map(
+                "map_6e4423ef5c1fd7dcd7478c0564de4ea8",
+                {
+                    center: [47.55729, 10.24872],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_40516d4c6b3ba2e6bc5c6eb5ef28be07 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            var poly_line_9ffbff46dfdf15f2c194239ba5444316 = L.polyline(
+                [[47.5572899, 10.2487219], [47.5574304, 10.2488998]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_9ffbff46dfdf15f2c194239ba5444316.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_35bb1d7048acec46c899b264594073d6 = L.polyline(
+                [[47.5555896, 10.2338622], [47.5550367, 10.2327303]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_35bb1d7048acec46c899b264594073d6.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3b4a6556235a357b444bc99b1ea6117e = L.polyline(
+                [[47.5540642, 10.2306286], [47.5539544, 10.2308961]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_3b4a6556235a357b444bc99b1ea6117e.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0e0561788bdbace6542e12a3e362af2d = L.polyline(
+                [[47.5585513, 10.2199632], [47.5585127, 10.2200411], [47.5584501, 10.2201334], [47.5583887, 10.2201868], [47.5583293, 10.2202282], [47.5582887, 10.220239], [47.5582359, 10.2202314], [47.558188, 10.22021], [47.5581349, 10.2201602], [47.5580996, 10.2201001], [47.5580741, 10.2200424], [47.5580402, 10.2199849], [47.5579684, 10.2199301], [47.5579028, 10.2198813]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0e0561788bdbace6542e12a3e362af2d.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_67a39eb8ac7f0d9458041183cb8d937a = L.polyline(
+                [[47.5584733, 10.2204152], [47.5584307, 10.2202983], [47.5583887, 10.2201868]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_67a39eb8ac7f0d9458041183cb8d937a.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cc342dc59a48511dbf97dd3a18e01742 = L.polyline(
+                [[47.5593453, 10.2454792], [47.5596339, 10.2461109]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_cc342dc59a48511dbf97dd3a18e01742.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_277018ab421d687fb8d4134a97806851 = L.polyline(
+                [[47.5596553, 10.2312838], [47.5595567, 10.2324474]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_277018ab421d687fb8d4134a97806851.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0143848ff9adae7c0d2df7183b1e539e = L.polyline(
+                [[47.5695365, 10.2344567], [47.5693095, 10.234712], [47.5689844, 10.2350824], [47.5686901, 10.2354177]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0143848ff9adae7c0d2df7183b1e539e.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0e48cf639793ee715b94c4cff464f4d7 = L.polyline(
+                [[47.5697051, 10.1931104], [47.5697905, 10.1932359]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0e48cf639793ee715b94c4cff464f4d7.bindTooltip(
+                `<div>
+                     Seestraße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_11409c25e8261c02e3172aaee05df694 = L.polyline(
+                [[47.572931, 10.1955577], [47.5729232, 10.1959258]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_11409c25e8261c02e3172aaee05df694.bindTooltip(
+                `<div>
+                     Seestraße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0a01f311f0edd243057016f83d74fb62 = L.polyline(
+                [[47.5705179, 10.1915255], [47.5705381, 10.1913932]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0a01f311f0edd243057016f83d74fb62.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_47fba4160097af4420d78c94cb94a47c = L.polyline(
+                [[47.5704512, 10.1912463], [47.5703455, 10.1912308]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_47fba4160097af4420d78c94cb94a47c.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9e96ca1d2ce26595f9ee17c175e1f197 = L.polyline(
+                [[47.56186, 10.2150633], [47.5617722, 10.2150162]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_9e96ca1d2ce26595f9ee17c175e1f197.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8cf25ea2b81c6fb47be040440842619f = L.polyline(
+                [[47.5651417, 10.2032879], [47.5648874, 10.2032196]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_8cf25ea2b81c6fb47be040440842619f.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6c25d356015232b665b0cb44fa4c73be = L.polyline(
+                [[47.5666879, 10.1953322], [47.5667927, 10.1953304]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_6c25d356015232b665b0cb44fa4c73be.bindTooltip(
+                `<div>
+                     Badeweg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_475b26837471659466361a93e8a1f449 = L.polyline(
+                [[47.558367, 10.2220348], [47.558125, 10.2218681]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_475b26837471659466361a93e8a1f449.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f4dfc02fbb17f2e273387a69ce4b10e3 = L.polyline(
+                [[47.5615832, 10.2218209], [47.5616863, 10.2218033]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_f4dfc02fbb17f2e273387a69ce4b10e3.bindTooltip(
+                `<div>
+                     An der Aach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4666d4763802981414a8f47eb7d4f2d8 = L.polyline(
+                [[47.561765, 10.2199322], [47.561883, 10.2200467]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_4666d4763802981414a8f47eb7d4f2d8.bindTooltip(
+                `<div>
+                     Gerbergasse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b23ee016a098f692bcab22666b8b2c3d = L.polyline(
+                [[47.562213, 10.2180691], [47.5623887, 10.2180864]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b23ee016a098f692bcab22666b8b2c3d.bindTooltip(
+                `<div>
+                     Kalvarienbergstraße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3d4235382d4354caee55cfefcf8911d9 = L.polyline(
+                [[47.5621002, 10.2178599], [47.5621528, 10.217698]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_3d4235382d4354caee55cfefcf8911d9.bindTooltip(
+                `<div>
+                     Ob der Aach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_51cf3242f41598b4b993fdc954cc4e07 = L.polyline(
+                [[47.5616819, 10.212837], [47.5617746, 10.2129104]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_51cf3242f41598b4b993fdc954cc4e07.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9cb47e11ca8440cc3e8fd1cdbb138ad7 = L.polyline(
+                [[47.5585346, 10.2160286], [47.5589172, 10.2162845], [47.5589286, 10.2162495], [47.5589435, 10.2162603]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_9cb47e11ca8440cc3e8fd1cdbb138ad7.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_53a751be8ff485ade57af111e6bb59e0 = L.polyline(
+                [[47.557897, 10.2174293], [47.5578262, 10.2175959]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_53a751be8ff485ade57af111e6bb59e0.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d536a43d86bf810882a676935d9f89a8 = L.polyline(
+                [[47.5616132, 10.2111949], [47.5618359, 10.2111104]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_d536a43d86bf810882a676935d9f89a8.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1a2219a7cbe5b94d9556abead3a221c8 = L.polyline(
+                [[47.5649259, 10.2307638], [47.565005, 10.2306185]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_1a2219a7cbe5b94d9556abead3a221c8.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bdbdbeb87f50ee3bad7071608b64e85b = L.polyline(
+                [[47.564574, 10.2312709], [47.5646379, 10.2311927]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_bdbdbeb87f50ee3bad7071608b64e85b.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e218de3c02c73b62456c83c5c0ec67c8 = L.polyline(
+                [[47.5633946, 10.227881], [47.5635092, 10.2280012]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_e218de3c02c73b62456c83c5c0ec67c8.bindTooltip(
+                `<div>
+                     Im Stillen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_08c7bd79189d1dcc8860fdaae812bb17 = L.polyline(
+                [[47.5524018, 10.2357759], [47.5524018, 10.2356841]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_08c7bd79189d1dcc8860fdaae812bb17.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_80d964166a7a5f06dedd7916c5c696f4 = L.polyline(
+                [[47.5583672, 10.2262221], [47.558331, 10.2261402], [47.5582786, 10.2260875]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_80d964166a7a5f06dedd7916c5c696f4.bindTooltip(
+                `<div>
+                     Allgäuer Straße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3023f3ba91e59eedae9814574ddb2332 = L.polyline(
+                [[47.5577285, 10.2269398], [47.5578383, 10.2270096]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_3023f3ba91e59eedae9814574ddb2332.bindTooltip(
+                `<div>
+                     Weißstraße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c635b2ed1963d929dc9c1a12c88e4942 = L.polyline(
+                [[47.5617956, 10.2172107], [47.5619029, 10.2171382]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_c635b2ed1963d929dc9c1a12c88e4942.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_dab89b72b3e09a215d911a5184e46a3f = L.polyline(
+                [[47.5504145, 10.2358827], [47.5504468, 10.2358123]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_dab89b72b3e09a215d911a5184e46a3f.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e3c07cc7267a2593c6f5eb6408f3e533 = L.polyline(
+                [[47.5699818, 10.1924125], [47.5700966, 10.1925336]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_e3c07cc7267a2593c6f5eb6408f3e533.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0901d31d4e3acd7dc3634950b61112fd = L.polyline(
+                [[47.5600799, 10.2104093], [47.560321, 10.2098456]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0901d31d4e3acd7dc3634950b61112fd.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_56860c7179373ae5bd6420a8635af833 = L.polyline(
+                [[47.5497708, 10.2346802], [47.5496662, 10.2347414]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_56860c7179373ae5bd6420a8635af833.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_26bc6a8f17983116e4feaafc9dc50d2b = L.polyline(
+                [[47.5849756, 10.2518811], [47.5847978, 10.2528462], [47.5845743, 10.2536996], [47.5841883, 10.2547002]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_26bc6a8f17983116e4feaafc9dc50d2b.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b422042bcb2c080ae71009ef1de06dbc = L.polyline(
+                [[47.5975874, 10.2570784], [47.5976738, 10.2571529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b422042bcb2c080ae71009ef1de06dbc.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_94e853b1799f8cba35662384034b63f3 = L.polyline(
+                [[47.6037274, 10.2678305], [47.6037901, 10.267877]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_94e853b1799f8cba35662384034b63f3.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e5e3f7878a143548e716ee1bb2b2dde9 = L.polyline(
+                [[47.5891614, 10.2463813], [47.5891661, 10.246579], [47.5891557, 10.2468072]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_e5e3f7878a143548e716ee1bb2b2dde9.bindTooltip(
+                `<div>
+                     Robert-Bosch-Straße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0e89b0da0ccafe9dafc6d92d6d2bed97 = L.polyline(
+                [[47.5548239, 10.2143954], [47.5548517, 10.2141068]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0e89b0da0ccafe9dafc6d92d6d2bed97.bindTooltip(
+                `<div>
+                     Sepp-Gammel-Brücke
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5dc7a4e59359ebb17e06045ec8d4bee5 = L.polyline(
+                [[47.5659515, 10.1435921], [47.5660323, 10.1435224]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_5dc7a4e59359ebb17e06045ec8d4bee5.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f082a1a7e7594432f9cb266cb68bf6ac = L.polyline(
+                [[47.5607486, 10.1399404], [47.5608262, 10.1398752], [47.5609154, 10.1397946], [47.5609411, 10.1397675], [47.5609614, 10.1397189]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_f082a1a7e7594432f9cb266cb68bf6ac.bindTooltip(
+                `<div>
+                     Alpsee Coaster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9df5c8a357eb13d55e1277c0e8d39439 = L.polyline(
+                [[47.5550826, 10.2326688], [47.5556551, 10.2338319]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_9df5c8a357eb13d55e1277c0e8d39439.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_59bbed7fce5493799b98184e442c21c4 = L.polyline(
+                [[47.6051933, 10.2283738], [47.6051181, 10.2282243]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_59bbed7fce5493799b98184e442c21c4.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c25d256a35d9b57db71666a210c4235d = L.polyline(
+                [[47.5566845, 10.2162315], [47.5566055, 10.2165372]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_c25d256a35d9b57db71666a210c4235d.bindTooltip(
+                `<div>
+                     Untere Kolonie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_68180edaecec24bb0e7a225bc11cb1bd = L.polyline(
+                [[47.5562333, 10.173949], [47.5561372, 10.1738075]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_68180edaecec24bb0e7a225bc11cb1bd.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a27160fd1c5a10c6de2e6b6eb5e9ffc8 = L.polyline(
+                [[47.5846668, 10.1976818], [47.5847155, 10.1978789], [47.584791, 10.1981359]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_a27160fd1c5a10c6de2e6b6eb5e9ffc8.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_634f1d2367df64de619fe69ae9a22fda = L.polyline(
+                [[47.5766098, 10.194777], [47.5767598, 10.1946256]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_634f1d2367df64de619fe69ae9a22fda.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bb0d1653381abb1f17ba2158623a384b = L.polyline(
+                [[47.5621021, 10.2263249], [47.5619233, 10.2261371]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_bb0d1653381abb1f17ba2158623a384b.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_194b8099dac65207434501c2c5dea856 = L.polyline(
+                [[47.5620834, 10.2263741], [47.5619042, 10.2261833]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_194b8099dac65207434501c2c5dea856.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2b53ebba4c17ca490ec84a055f096b4f = L.polyline(
+                [[47.560069, 10.2103248], [47.5603176, 10.2097376]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_2b53ebba4c17ca490ec84a055f096b4f.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9fd0659c9aeeb5bd332020315904ac26 = L.polyline(
+                [[47.5765903, 10.1947274], [47.5767425, 10.1945798]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_9fd0659c9aeeb5bd332020315904ac26.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1d4d08fbf7a1285bf949cfdf365385be = L.polyline(
+                [[47.5632611, 10.2306585], [47.5632218, 10.2308039]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_1d4d08fbf7a1285bf949cfdf365385be.bindTooltip(
+                `<div>
+                     Im Stillen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a9b0b5d27e62e82798924cc41a17f203 = L.polyline(
+                [[47.563695, 10.1324838], [47.5638301, 10.1324228]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_a9b0b5d27e62e82798924cc41a17f203.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6ce4ff76cdbc2d97468269cb815900a8 = L.polyline(
+                [[47.5665047, 10.1382509], [47.5664976, 10.1380215]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_6ce4ff76cdbc2d97468269cb815900a8.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_206754d15d19851480c5f6a818efb05a = L.polyline(
+                [[47.5644503, 10.1388407], [47.5645469, 10.13871]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_206754d15d19851480c5f6a818efb05a.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7b53a8708a0ce1b8c447ff16cca548ff = L.polyline(
+                [[47.5659023, 10.1312467], [47.5658794, 10.1311682]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_7b53a8708a0ce1b8c447ff16cca548ff.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9f6e7ae837545c61280e65de0ccc7089 = L.polyline(
+                [[47.5703024, 10.2442316], [47.570582, 10.2439528]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_9f6e7ae837545c61280e65de0ccc7089.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_07e05039f9ae6820852e07347fe8339b = L.polyline(
+                [[47.5637162, 10.2268331], [47.5636009, 10.2267175]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_07e05039f9ae6820852e07347fe8339b.bindTooltip(
+                `<div>
+                     Kemptener Straße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b76faa3a31dc611918aacfc8b537b998 = L.polyline(
+                [[47.5682816, 10.1259551], [47.5683091, 10.1259041]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b76faa3a31dc611918aacfc8b537b998.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cfc7441c579c9c1ab783fd8d02dc393e = L.polyline(
+                [[47.5683157, 10.1255657], [47.5683508, 10.1254764]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_cfc7441c579c9c1ab783fd8d02dc393e.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ff654c460e81f91fd1533032a89061ee = L.polyline(
+                [[47.5649336, 10.1279293], [47.5649039, 10.1278502]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_ff654c460e81f91fd1533032a89061ee.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_da89779e8db520850d41231824e1ec09 = L.polyline(
+                [[47.5659598, 10.1307624], [47.566006, 10.1307624]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_da89779e8db520850d41231824e1ec09.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_14336c6a64cdbad68646ea99cb4027b9 = L.polyline(
+                [[47.5548224, 10.2131285], [47.5549113, 10.2131322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_14336c6a64cdbad68646ea99cb4027b9.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5593ea573f16a5856f5e3e39421548bd = L.polyline(
+                [[47.5684328, 10.2417231], [47.5682064, 10.2415698]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_5593ea573f16a5856f5e3e39421548bd.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c6f65a2004e03b6ecdacccf4a325f367 = L.polyline(
+                [[47.5700775, 10.1926975], [47.5700728, 10.1928302]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_c6f65a2004e03b6ecdacccf4a325f367.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b0e6a7bd6cd1b587b01d5bdbd83d95a6 = L.polyline(
+                [[47.5635234, 10.2278458], [47.5634293, 10.2277544]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b0e6a7bd6cd1b587b01d5bdbd83d95a6.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0cae624e6e694454b3a2fbfbea5b7b01 = L.polyline(
+                [[47.563544, 10.2278103], [47.5634463, 10.2277121]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0cae624e6e694454b3a2fbfbea5b7b01.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_74342a4f46b370d8ef621a22635878cf = L.polyline(
+                [[47.5561615, 10.250772], [47.5559362, 10.2511293]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_74342a4f46b370d8ef621a22635878cf.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f0df25332e28ee817220416b7a3ec36c = L.polyline(
+                [[47.5548312, 10.2463378], [47.5547853, 10.2465551]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_f0df25332e28ee817220416b7a3ec36c.bindTooltip(
+                `<div>
+                     Am Roßbach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_da8b21d198b910c36a02209891a86432 = L.polyline(
+                [[47.5564242, 10.25812], [47.5564021, 10.2582013]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_da8b21d198b910c36a02209891a86432.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2316589f257736dd45c7b689af526a69 = L.polyline(
+                [[47.5621239, 10.2426356], [47.5623115, 10.2424584]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_2316589f257736dd45c7b689af526a69.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_03ce8b05e036f6fc354971521a527ef8 = L.polyline(
+                [[47.5622648, 10.2423186], [47.5620626, 10.2424987]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_03ce8b05e036f6fc354971521a527ef8.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c0353c8ef759eba5f39f1477d39f7fa1 = L.polyline(
+                [[47.5574304, 10.2488998], [47.557654, 10.2492219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_c0353c8ef759eba5f39f1477d39f7fa1.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5fdf4f7456b05d088ccae2b4bdc1cae7 = L.polyline(
+                [[47.5681628, 10.24172], [47.5683911, 10.2418739]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_5fdf4f7456b05d088ccae2b4bdc1cae7.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1a8aba6f18a9b5299ec26d5bfaa15d64 = L.polyline(
+                [[47.5681478, 10.2417867], [47.5683565, 10.2419884]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_1a8aba6f18a9b5299ec26d5bfaa15d64.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3988674c32b8c49afedaab8ce5800786 = L.polyline(
+                [[47.5601573, 10.2364383], [47.5602063, 10.2364108]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_3988674c32b8c49afedaab8ce5800786.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0362cdba2b4c7b7bf83d7e3479e2ac32 = L.polyline(
+                [[47.5381926, 10.1955932], [47.5383587, 10.1952814]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0362cdba2b4c7b7bf83d7e3479e2ac32.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_675ed0fb2eb13fe88c5e18057c0efd8c = L.polyline(
+                [[47.6050638, 10.2619063], [47.6049797, 10.2619234]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_675ed0fb2eb13fe88c5e18057c0efd8c.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_caa613765fdf3f524700ebe5cb2e615f = L.polyline(
+                [[47.6051739, 10.2660573], [47.605219, 10.2661245]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_caa613765fdf3f524700ebe5cb2e615f.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5c693c009c60311efd0e7bed70f8ed86 = L.polyline(
+                [[47.5589172, 10.2162845], [47.5589328, 10.2162966]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_5c693c009c60311efd0e7bed70f8ed86.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_eaa858a507b173f84b4eb312f31a4e4e = L.polyline(
+                [[47.5891065, 10.2535259], [47.5890235, 10.2537219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_eaa858a507b173f84b4eb312f31a4e4e.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_915bccc372ebf08c7747f5a80b2b4e44 = L.polyline(
+                [[47.5979588, 10.2567888], [47.5979299, 10.256711]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_915bccc372ebf08c7747f5a80b2b4e44.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2534886b44bc896088301ce3465575a3 = L.polyline(
+                [[47.5543284, 10.2457962], [47.5543248, 10.2457506]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_2534886b44bc896088301ce3465575a3.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_02d1fbc039b37664461a8ef1cf21598d = L.polyline(
+                [[47.5745257, 10.235659], [47.5745643, 10.2356509]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_02d1fbc039b37664461a8ef1cf21598d.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9a1764605df3fd4e181d1ca44634fbd2 = L.polyline(
+                [[47.5757527, 10.1703263], [47.5757765, 10.170432]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_9a1764605df3fd4e181d1ca44634fbd2.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e3d9975984a6e02ebe21d8ea4fe9bd04 = L.polyline(
+                [[47.5829465, 10.2464768], [47.5830422, 10.246432]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_e3d9975984a6e02ebe21d8ea4fe9bd04.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2c4b71a94dc1c7bb90810c7e6bd159bf = L.polyline(
+                [[47.5580225, 10.1697279], [47.5580152, 10.1697992]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_2c4b71a94dc1c7bb90810c7e6bd159bf.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_acc6d6abaa222fab483edb9ec29a45aa = L.polyline(
+                [[47.6091107, 10.2537096], [47.6091995, 10.2537654], [47.6092716, 10.2537578], [47.6093189, 10.2537507], [47.609365, 10.253745]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_acc6d6abaa222fab483edb9ec29a45aa.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b6edcb18808255d7df498773391a4490 = L.polyline(
+                [[47.548102, 10.2091671], [47.5481548, 10.2090522]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b6edcb18808255d7df498773391a4490.bindTooltip(
+                `<div>
+                     Mittag Winterrodelbahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0d46c0114b695d930cb08b34de8c3efe = L.polyline(
+                [[47.554884, 10.213898], [47.5549823, 10.2138768]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0d46c0114b695d930cb08b34de8c3efe.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3a0ec133f65fa2f21d87977b941a1eb8 = L.polyline(
+                [[47.5476553, 10.2071222], [47.5476308, 10.207072]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_3a0ec133f65fa2f21d87977b941a1eb8.bindTooltip(
+                `<div>
+                     Steigbachtal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1fc772fa20f1180f2ac05305935b8ecf = L.polyline(
+                [[47.5464503, 10.2053032], [47.546527, 10.2052859]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_1fc772fa20f1180f2ac05305935b8ecf.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3a6d13291d185f3b1299f12d558cdaf1 = L.polyline(
+                [[47.5632493, 10.2306493], [47.5632092, 10.2307964]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_3a6d13291d185f3b1299f12d558cdaf1.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4b6084cf779e518dc90527da07444390 = L.polyline(
+                [[47.5420001, 10.2018396], [47.5420002, 10.2019052]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_4b6084cf779e518dc90527da07444390.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8f788d0802f2273f8df289f7f6242e1e = L.polyline(
+                [[47.5538347, 10.2126879], [47.5538627, 10.2127006]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_8f788d0802f2273f8df289f7f6242e1e.bindTooltip(
+                `<div>
+                     Obere Steig
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_15cbf56c8011b5aed4a29edb16032cf0 = L.polyline(
+                [[47.5846894, 10.2373668], [47.5847502, 10.2373089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_15cbf56c8011b5aed4a29edb16032cf0.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_70c14c467cfda308d7ddb518f8f4a009 = L.polyline(
+                [[47.5839808, 10.2427794], [47.5838763, 10.2427448]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_70c14c467cfda308d7ddb518f8f4a009.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b5c373bad1ed40cd0f9dc54b600a1863 = L.polyline(
+                [[47.583973, 10.242831], [47.5838686, 10.2427956]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b5c373bad1ed40cd0f9dc54b600a1863.bindTooltip(
+                `<div>
+                     Bayerische Allgäubahn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_53432b1fb9efb7880c47c0d5c99d5062 = L.polyline(
+                [[47.6004011, 10.2517281], [47.6003406, 10.2517261]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_53432b1fb9efb7880c47c0d5c99d5062.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_88b52735e47bff97f4780889a626b82a = L.polyline(
+                [[47.6065899, 10.245276], [47.6066889, 10.245276]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_88b52735e47bff97f4780889a626b82a.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_be72a395ddea25ec1ed2a3ba6c202cab = L.polyline(
+                [[47.5721102, 10.2411849], [47.5719782, 10.2416642], [47.5716851, 10.2423401], [47.5711513, 10.2431333]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_be72a395ddea25ec1ed2a3ba6c202cab.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_08dfd96cef705d32cce1ee7d7368d168 = L.polyline(
+                [[47.5499805, 10.1397777], [47.5499602, 10.1397291]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_08dfd96cef705d32cce1ee7d7368d168.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ee3c997aed38a3fbf28739a09cee4a56 = L.polyline(
+                [[47.5777841, 10.1928581], [47.5777944, 10.1928321]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_ee3c997aed38a3fbf28739a09cee4a56.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_36753b947afb6097713aeb4252bb6260 = L.polyline(
+                [[47.578393, 10.1871525], [47.578386, 10.1870532]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_36753b947afb6097713aeb4252bb6260.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7dcf0104d07ad86e1fed689de6dce89e = L.polyline(
+                [[47.5770052, 10.176183], [47.5770256, 10.176271]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_7dcf0104d07ad86e1fed689de6dce89e.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b29329b97a4963b8d860e9c1e1e8e194 = L.polyline(
+                [[47.5766587, 10.1762909], [47.5766682, 10.1763795]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b29329b97a4963b8d860e9c1e1e8e194.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3b793e27d881e3fbafcb0817158bb080 = L.polyline(
+                [[47.5742211, 10.1589966], [47.5741873, 10.1589188]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_3b793e27d881e3fbafcb0817158bb080.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d1b91abf3cb6af6af49481f9e3c482ad = L.polyline(
+                [[47.5669303, 10.1385752], [47.5669434, 10.1385506]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_d1b91abf3cb6af6af49481f9e3c482ad.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ffb0a81b0dd8a395340cc481766c2256 = L.polyline(
+                [[47.5560914, 10.2147304], [47.5558762, 10.214841]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_ffb0a81b0dd8a395340cc481766c2256.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a12588fa6e112480b5b88dcf8e679cad = L.polyline(
+                [[47.5860606, 10.2265951], [47.5861569, 10.2265361]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_a12588fa6e112480b5b88dcf8e679cad.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_86a0b8a4c1133f98f1c86cf37ff050d5 = L.polyline(
+                [[47.5987657, 10.2442413], [47.5986941, 10.2442463]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_86a0b8a4c1133f98f1c86cf37ff050d5.bindTooltip(
+                `<div>
+                     Werdensteiner Straße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_70075026035ccdacf3677d7fc28ecd76 = L.polyline(
+                [[47.6121548, 10.1937764], [47.6121612, 10.1937113]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_70075026035ccdacf3677d7fc28ecd76.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fa979de4c719228e02dfa60b24c44b71 = L.polyline(
+                [[47.6083667, 10.1843618], [47.608171, 10.1835604], [47.6080655, 10.1831903]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_fa979de4c719228e02dfa60b24c44b71.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_42b92f9bdb6b676671b6105e8fd82f3f = L.polyline(
+                [[47.5607686, 10.1745472], [47.5607435, 10.1744955]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_42b92f9bdb6b676671b6105e8fd82f3f.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4e289fcac635f69a9d84ef3cb016a9d4 = L.polyline(
+                [[47.5631545, 10.1605908], [47.5631278, 10.1605409]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_4e289fcac635f69a9d84ef3cb016a9d4.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7986fca2a7b07b0770bacfb5b6decdd6 = L.polyline(
+                [[47.5621555, 10.1443495], [47.5622317, 10.1444917]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_7986fca2a7b07b0770bacfb5b6decdd6.bindTooltip(
+                `<div>
+                     Stadtwaldweg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0f93351d20f66f98f198ea4dada5316d = L.polyline(
+                [[47.5606345, 10.1389093], [47.560696, 10.138908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0f93351d20f66f98f198ea4dada5316d.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_014dd3e9148b5c762ded058153965a83 = L.polyline(
+                [[47.5419985, 10.1606946], [47.5420655, 10.1604988]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_014dd3e9148b5c762ded058153965a83.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_57d7afd7a620f79b0c21722ad412e5d6 = L.polyline(
+                [[47.5782916, 10.171165], [47.5782675, 10.1711801]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_57d7afd7a620f79b0c21722ad412e5d6.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_305fe1a72e073959a46454afaa168bc3 = L.polyline(
+                [[47.5769781, 10.1675495], [47.5769238, 10.1674202]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_305fe1a72e073959a46454afaa168bc3.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8c119ebea1a6ae9958731e3302e34c1f = L.polyline(
+                [[47.5848099, 10.232686], [47.584825, 10.2328684]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_8c119ebea1a6ae9958731e3302e34c1f.bindTooltip(
+                `<div>
+                     Hölltobelweg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d91c9cf6a0be9dfdae4f622761f6f57d = L.polyline(
+                [[47.5541695, 10.216335], [47.5541523, 10.2162673]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_d91c9cf6a0be9dfdae4f622761f6f57d.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d5b61014f924a5c4d7ef73dc2c3fe47d = L.polyline(
+                [[47.5783296, 10.2276314], [47.5783567, 10.2277232]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_d5b61014f924a5c4d7ef73dc2c3fe47d.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_61a678fec10f8951df1579f2fb12b975 = L.polyline(
+                [[47.5952447, 10.2484419], [47.5952478, 10.2483685]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_61a678fec10f8951df1579f2fb12b975.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6502473b8225b38e0493d297dca056a8 = L.polyline(
+                [[47.5969114, 10.2569003], [47.5968703, 10.2570324]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_6502473b8225b38e0493d297dca056a8.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a2f655a23b80eeaa8ef3de68c90b99f5 = L.polyline(
+                [[47.5904034, 10.2559417], [47.5903741, 10.2559895]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_a2f655a23b80eeaa8ef3de68c90b99f5.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0974f149f5ec6b0b2ff537e61d38bd81 = L.polyline(
+                [[47.5618152, 10.1422563], [47.5618522, 10.1421916]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0974f149f5ec6b0b2ff537e61d38bd81.bindTooltip(
+                `<div>
+                     Stadtwaldweg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bce2e2c8014ce085682036159d1a2948 = L.polyline(
+                [[47.5753397, 10.2292559], [47.5753851, 10.229312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_bce2e2c8014ce085682036159d1a2948.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5d76900c4e92659492e2f8c2f316ac7d = L.polyline(
+                [[47.5727235, 10.2277344], [47.5727798, 10.2277172]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_5d76900c4e92659492e2f8c2f316ac7d.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_29a1c914fa2cf31a121df92de4d66a65 = L.polyline(
+                [[47.5703566, 10.2293936], [47.5702749, 10.2294063]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_29a1c914fa2cf31a121df92de4d66a65.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_26089f7f88d5769a336e64568ee6fa97 = L.polyline(
+                [[47.5938742, 10.2480997], [47.5938702, 10.248173]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_26089f7f88d5769a336e64568ee6fa97.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a3e8ec9e9f179544b35bd1791b7a0615 = L.polyline(
+                [[47.6106597, 10.2505639], [47.6106605, 10.250473]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_a3e8ec9e9f179544b35bd1791b7a0615.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5103f61cd7c6d266f40d028d2c2309df = L.polyline(
+                [[47.6107621, 10.2504596], [47.6107716, 10.2505525]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_5103f61cd7c6d266f40d028d2c2309df.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8ad8ac08c4243e57caf3ff99e2ec638c = L.polyline(
+                [[47.5991031, 10.2630474], [47.5990565, 10.2631632]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_8ad8ac08c4243e57caf3ff99e2ec638c.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_911914fb165d175821d1fd3492db2805 = L.polyline(
+                [[47.5932532, 10.2567338], [47.593266, 10.2566058]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_911914fb165d175821d1fd3492db2805.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f47ded36a2161115ec438f22d13e685d = L.polyline(
+                [[47.607691, 10.2446039], [47.6076312, 10.2445748]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_f47ded36a2161115ec438f22d13e685d.bindTooltip(
+                `<div>
+                     Burgweg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c789577930c03746f0c1dfcbdeeca4ec = L.polyline(
+                [[47.6058169, 10.2244382], [47.6057507, 10.2244421]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_c789577930c03746f0c1dfcbdeeca4ec.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c62a028e393f7ca7b3a9de6ac19b0f60 = L.polyline(
+                [[47.6057093, 10.2192522], [47.6057525, 10.2193663]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_c62a028e393f7ca7b3a9de6ac19b0f60.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8fcea153aec617dea6c2305618550969 = L.polyline(
+                [[47.5635423, 10.1990497], [47.5635507, 10.198996]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_8fcea153aec617dea6c2305618550969.bindTooltip(
+                `<div>
+                     Julius-Kunert-Straße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_62d8f33e780e48c56dd4605243d7a17b = L.polyline(
+                [[47.5635188, 10.1989751], [47.5635013, 10.1990418]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_62d8f33e780e48c56dd4605243d7a17b.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0316ca3bde22a84676ebe6188a25a52f = L.polyline(
+                [[47.5631631, 10.1988312], [47.5630641, 10.1988925]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0316ca3bde22a84676ebe6188a25a52f.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0a5baaf740c03c3ec1a6bd710d418086 = L.polyline(
+                [[47.5634283, 10.1989591], [47.5633959, 10.1990137]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_0a5baaf740c03c3ec1a6bd710d418086.bindTooltip(
+                `<div>
+                     Julius-Kunert-Straße
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aa97705bba0d978f6fc782f1d832ba01 = L.polyline(
+                [[47.5642251, 10.1993948], [47.564229, 10.1993753]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_aa97705bba0d978f6fc782f1d832ba01.bindTooltip(
+                `<div>
+                     Badeweg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_90f7cdf7b7aeaf59f6d8604334adb273 = L.polyline(
+                [[47.5615822, 10.2073105], [47.5616165, 10.2072382]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_90f7cdf7b7aeaf59f6d8604334adb273.bindTooltip(
+                `<div>
+                     Badeweg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_916a1672321649e54d17c5dd771b5008 = L.polyline(
+                [[47.5601141, 10.2083762], [47.5601269, 10.2083106]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_916a1672321649e54d17c5dd771b5008.bindTooltip(
+                `<div>
+                     Am Hornbach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6a9a9ea46cff23c1dd03f829dea3518c = L.polyline(
+                [[47.5622116, 10.2179971], [47.5623786, 10.2180191]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_6a9a9ea46cff23c1dd03f829dea3518c.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9f7c8545ccf817931d1efbc573732dc8 = L.polyline(
+                [[47.5427063, 10.2010175], [47.5426201, 10.2010105]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_9f7c8545ccf817931d1efbc573732dc8.bindTooltip(
+                `<div>
+                     Steigbachtal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_964d602060865c20321b6cfd222a4023 = L.polyline(
+                [[47.6093927, 10.2646705], [47.6094297, 10.2645939]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_964d602060865c20321b6cfd222a4023.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b85850fb5e53a935aad187945b7ef7bf = L.polyline(
+                [[47.6101309, 10.2657512], [47.6100934, 10.2658105]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b85850fb5e53a935aad187945b7ef7bf.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bb44f94786b6c93c23b866ac182e63ce = L.polyline(
+                [[47.6053187, 10.2549764], [47.6053866, 10.2550053]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_bb44f94786b6c93c23b866ac182e63ce.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5e5400de5e8341ffffeaec8d7887780f = L.polyline(
+                [[47.59369, 10.2136745], [47.5937334, 10.2137635]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_5e5400de5e8341ffffeaec8d7887780f.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_830302e318b43f74c662cb7fb0a6c11d = L.polyline(
+                [[47.5837369, 10.2441268], [47.5836609, 10.2440797]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_830302e318b43f74c662cb7fb0a6c11d.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5f2b6a44f71dcfb20ce7f33679839759 = L.polyline(
+                [[47.5866751, 10.2477648], [47.586654, 10.2478943]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_5f2b6a44f71dcfb20ce7f33679839759.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b8ad957041deb2ed0c5832537f4a0ebc = L.polyline(
+                [[47.5828508, 10.2464469], [47.5828976, 10.2464804]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_b8ad957041deb2ed0c5832537f4a0ebc.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1e87d9ecbf1ab197efd59fc1b5285cb6 = L.polyline(
+                [[47.5883707, 10.2507693], [47.5884195, 10.2509381]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_1e87d9ecbf1ab197efd59fc1b5285cb6.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2d3e87fb2cddccf794adf9f2470302fd = L.polyline(
+                [[47.5891958, 10.2464624], [47.589188, 10.2467647]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_2d3e87fb2cddccf794adf9f2470302fd.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_35f80ca8b1b9483afaedcb3a922e3e7a = L.polyline(
+                [[47.5269281, 10.1762561], [47.5269496, 10.1763448]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_35f80ca8b1b9483afaedcb3a922e3e7a.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3df3fa442cf5e4ab6217525ecbba2296 = L.polyline(
+                [[47.6290005, 10.1911015], [47.6289748, 10.1910974]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_3df3fa442cf5e4ab6217525ecbba2296.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_736dae49f67341cefa315b572977155f = L.polyline(
+                [[47.6287092, 10.1912169], [47.6287165, 10.1911753]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6e4423ef5c1fd7dcd7478c0564de4ea8);
+        
+    
+            poly_line_736dae49f67341cefa315b572977155f.bindTooltip(
+                `<div>
+                     Unnamed Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
